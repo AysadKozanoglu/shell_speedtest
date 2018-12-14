@@ -3,9 +3,11 @@
 
 the script take the nearest server to test the speedtest 
 <pre>
-wget -O speedtest https://raw.githubusercontent.com/AysadKozanoglu/shell_speedtest/master/speedtest
-chmod +x speedtest
-./speedtest
+wget -O speedtest https://git.io/fpbus && chmod +x speedtest && ./speedtest
+
+OR
+
+wget -O - https://git.io/fpbus | python
 </pre>
 
 ## output like ##
